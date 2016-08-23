@@ -17,4 +17,4 @@ findContact();
 updateLastContact();
 addContact();
 
-console.log(contacts);
+console.log(contacts);ß
