@@ -1,0 +1,30 @@
+____________________________________________________
+|    Grocery List App                               |
+|                                                   |
+|    -list name                                     |
+|        >detail                                    |
+|        >detail                                    |
+|    ___________      _____________     ___________ |
+|   |edit button|     |delete button|  |new button| |
+|____________________________________________________
+
+VARIABLES: List name, detail ( or grocery item )
+NEW: Creates a new list
+
+List name would probably be a class, and detail would be a div item added and
+appended to it.
+
+New would be appending to the page at large, each list another full on div.
+
+function new
+    creates new array
+    pops to array each new element
+    displays full array in viewable format
+
+function edit
+    pops or pushes item depending on how editing
+    saves that new or altered array to the original variable
+
+function delete
+    pops that div from the larger array of grocery lists
+    saves to array of arrays to original variable
