@@ -1,0 +1,1 @@
+So I emailed the instructors about this. I was having some bug even though my code should have been working. When I revisited to turn in my stuff, it had all somehow been deleted. I wanted to move on to the next lesson but obviously I did do this one. 
