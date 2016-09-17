@@ -11,3 +11,4 @@ newListItem.textContent = 'Feed the cat';
 document.getElementsByTagName('ul')[0].appendChild(newListItem);
 document.getElementsByTagName('ul')[0].appendChild(newListItem);
 document.getElementById('important').className = 'highlight';
+document.getElementsByTagName('li')[2].removeAttribute('id');
