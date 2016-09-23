@@ -14,10 +14,12 @@ function completeItem() {
   addItemToCompleted(this);
 }
 
-function removeItemFromTodos() {
+function removeItemFromTodos(itemElement) {
+  document.getElementById('todoList').removeChild(itemElement);
 }
 
-function addItemToCompleted() {
+function addItemToCompleted(itemElement) {
+  document.getElementById('completedList').appendChild(itemElement);
 }
 
 document.getElementsByTagName('button')[0].addEventListener('click', addItem);
