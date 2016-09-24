@@ -6,7 +6,7 @@ function addItem() {
   var newItem = document.createElement('li');
   newItem.innerHTML = newItemText;
   document.getElementById('todoList').appendChild(newItem);
-  newItem.addEventListener('click',completeItem);
+  newItem.addEventListener('click', completeItem);
 }
 
 function completeItem() {

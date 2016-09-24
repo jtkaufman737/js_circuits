@@ -1,23 +1,39 @@
-function addItem() {
-  var input = document.getElementsByTagName('input')[0];
-  var newItemText = input.value;
-  input.value = '';
-
-  var newItem = document.createElement('li');
-  newItem.innerHTML = newItemText;
-  document.getElementById('todoList').appendChild(newItem);
-  newItem.addEventListener('click',completeItem);
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
 }
 
-function completeItem() {
-  removeItemFromTodos(this);
-  addItemToCompleted(this);
+ul {
+  list-style:none;
+  text-align:center;
+  font-size:16px;
+  font-family:'Arial',sans-serif;
 }
 
-function removeItemFromTodos() {
+li{
+  line-height:1.5em;
 }
 
-function addItemToCompleted() {
+body {
+    padding: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
 }
 
-document.getElementsByTagName('button')[0].addEventListener('click', addItem);
+button {
+  cursor:pointer;
+  background-color:#00D0CB;
+  color:white;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:16px;
+  padding:10px 10px;
+  border-radius:4px;
+  border:none;
+}
